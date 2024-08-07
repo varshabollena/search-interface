@@ -1,0 +1,75 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Interface</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #87CEEB; /* Sky blue background */
+            color: #000; /* Black font color */
+        }
+        .search-container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            width: 300px;
+        }
+        .dropdown {
+            margin-bottom: 10px;
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            background-color: #EE82EE; /* Violet color */
+            color: #000; /* Black font color */
+        }
+        .search-input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            background-color: #87CEEB; /* Sky blue color */
+            color: #000; /* Black font color */
+        }
+        .search-button {
+            width: 100%;
+            padding: 10px;
+            background-color: #0000FF; /* Blue color */
+            color: #000; /* Black font color */
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .search-button:hover {
+            background-color: #00008B; /* Darker blue on hover */
+        }
+    </style>
+</head>
+<body>
+    <div class="search-container">
+        <select class="dropdown">
+            <option value="everything">Everything</option>
+            <option value="software-development">Software Development</option>
+            <option value="web-development">Web Development</option>
+            <option value="data-analyst">Data Analyst</option>
+            <option value="it-consultant">IT Consultant</option>
+            <option value="network-administrator">Network Administrator</option>
+        </select>
+        <input type="text" class="search-input" placeholder="Enter your query here...">
+        <button class="search-button">Search</button>
+    </div>
+</body>
+</html>
+
+
