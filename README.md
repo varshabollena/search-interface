@@ -23,4 +23,8 @@ To use this interface, simply clone or download this repository to your local ma
 
 ```bash
 git clone https://github.com/varshabollena/search-interface
+```
+
+```
 cd search-interface
+```
